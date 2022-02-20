@@ -78,7 +78,7 @@ img {
 .showCase {
     grid-area: showCase;
     min-height: 400px;
-    background: url(images/code-img2.PNG);
+    background: url(./code-img2.PNG);
     background-size: cover;
     background-position: center;
     padding: 2rem;
