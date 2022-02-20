@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="top" class="main-nav">
+            <ul>
+                <li><a href="#top" target="_self">Home</a></li>
+                <li><a href="#about" target="_self">About</a></li>
+                <li><a href="#projects" target="_self">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    <!--Top Container-->
+    <section id="about" class="top-container">
+        <header class="showCase">
+            <h1>Daniel C.</h1>
+            <p>I'm a junior web developer, I mainly focus on front-end development. Furthermore, I've set up a local server environment using Node.JS and the express framework. Therefore, I have some experience on back-end development.</p>
+            <a href="#" class="btn">Read More</a>
+        </header>
+        <div class="top-box top-box-a">
+            <h4>About Me</h4>
+            <ul class="price">
+                <li>Responsible</li>
+                <li>Versatile</li>
+                <li>Fast Learner</li>
+            </ul>
+        </div>
+        <div class="top-box top-box-b">
+            <h4>Work Experience</h4>
+            <ul class="price">
+                <li>It company</li>
+                <li>customer service</li>
+                <li>bank representative</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--boxes Section-->
+    <section class="boxes">
+        <div class="box">
+            <h3>HTML</h3>
+            <div class="bar">
+                <div class="percentage-html">80%</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>CSS</h3>
+            <div class="bar">
+                <div class="percentage-css">70%</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Javascript</h3>
+            <div class="bar">
+                <div class="percentage-js">75%</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Node.JS</h3>
+            <div class="bar">
+                <div class="percentage-node">40%</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Bootstrap</h3>
+            <div class="bar">
+                <div class="percentage-bootstrap">60%</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <img src="images/code-img.PNG" alt="code-image">
+        <div>
+            <h2>Web Development Projects</h2>
+            <p>Hereunder, You can check all the website I've worked on.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!--Portfolio-->
+    <section id="projects" class="portfolio">
+        <a href="https://github.com/dacd23?tab=repositories" target="_blank"><img src="images/code-img.PNG" alt="code image"></a>
+        <a href="dacd23.github.io/repo-github/" target="_blank"><img src="images/code-img1.PNG" alt="JaP E-commerce Website"></a>
+        <a href="https://github.com/dacd23?tab=repositories" target="_blank"><img src="images/code-img2.PNG" alt="code image1"></a>
+        <a href="dacd23.github.io/fortuneeightball/" target="_blank"><img src="images/code-img3.PNG" alt="fortuneEightBall"></a>
+        <a href="dacd23.github.io/veterinary-website/" target="_blank"><img src="images/code-img4.PNG" alt="veterinaryWebsite"></a>
+        <a href="dacd23.github.io/geolocation/" target="_blank"><img src="images/code-img5.PNG" alt="geolocation"></a>
+        <a href="dacd23.github.io/js-event-game/" target="_blank"><img src="images/code-img6.PNG" alt="jsEventGame"></a>
+        <a href="dacd23.github.io/bouncing-ball/" target="_blank"><img src="images/code-img7.PNG" alt="bouncingBall"></a>
+        <a href="dacd23.github.io/cozyteashop/" target="_blank"><img src="images/code-img8.PNG" alt="cozyTeaShop"></a>
+        <a href="dacd23.github.io/csscolorsandfontstyles/" target="_blank"><img src="images/code-img9.PNG" alt="csscolorsandfontstyles"></a>
+    </section>
+    
+    <!--contact-->
+    <section id="contact" class="contact">
+        <form action="about.html" method="GET">
+            <label type="text" for="name">Name:</label><br>
+            <input type="text" name="name"  placeholder="username"><br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" name="surname" placeholder="surname"><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" placeholder="e-mail"><br>
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" rows="4" columns="40" maxlength="100" placeholder="Comments"></textarea><hr>
+            <button class="btn" type="submit" value="Submit">Submit</button>
+        </form>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>Daniel C. &copy; 2021</p>
+        <a href="#top" target="_self"><p class="btn1">Move Up</p></a>
+    </footer>
+    </div>
+    <!--End of wrapper-->
+
+    <script src="./main.js"></script>
+</body>
+</html>
